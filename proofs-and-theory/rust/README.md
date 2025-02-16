@@ -1,0 +1,4 @@
+# Rust Algos
+1. To run any example, you can typically look in the binder, find an algorithm you'd like to run, and replace ```src/main.rs``` contents with the contents of the file you found in binder. The current example uses ```binder/crypto.rs```
+2. You can then run ```cargo run``` as usual in this directory, ensuring you also updated the Cargo.toml to match the dependencies of the incoming file contents.
+3. Make sure to pull in associated configs or support files into the root rust directory that should be included in the directory where you found the algorithm originally (e.g., access_structure.json for crypto.rs)

@@ -1,0 +1,19 @@
+{
+  "type": "Threshold",
+  "k": 2,
+  "children": [
+    {
+      "type": "Party",
+      "id": "P1"
+    },
+    {
+      "type": "Threshold",
+      "k": 2,
+      "children": [
+        { "type": "Party", "id": "P2" },
+        { "type": "Party", "id": "P3" },
+        { "type": "Party", "id": "P4" }
+      ]
+    }
+  ]
+}
