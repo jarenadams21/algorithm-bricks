@@ -1,0 +1,10 @@
+[package]
+name = "quantum_dist"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "quantum_dist"
+path = "quantum_dist.rs"
